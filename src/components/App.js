@@ -1,7 +1,15 @@
 import React from 'react'
-
-const App = () => {
-    return <div>App Components</div>
+import Header from './header'
+import './styles.scss';
+class App extends React.Component
+{
+  render(){
+      return(
+          <div className="app">
+              <Header/> 
+          </div>
+              );
+  }
 }
 
 export default App;
